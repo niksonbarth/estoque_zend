@@ -1,0 +1,15 @@
+<h1>Login</h1>
+<form action="<?= $this->url('application', ['controller' => 'Usuario', 'action' => 'login']); ?>" method="post">
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Acessar" class="btn btn-primary">
+    </div>
+</form>
